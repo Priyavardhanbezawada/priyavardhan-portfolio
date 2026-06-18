@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[71367,["/_next/static/chunks/06p_0ftwmv4_e.js"],"ViewportBoundary"]
-3:I[71367,["/_next/static/chunks/06p_0ftwmv4_e.js"],"MetadataBoundary"]
+2:I[71367,["/priyavardhan-portfolio/_next/static/chunks/06p_0ftwmv4_e.js"],"ViewportBoundary"]
+3:I[71367,["/priyavardhan-portfolio/_next/static/chunks/06p_0ftwmv4_e.js"],"MetadataBoundary"]
 4:"$Sreact.suspense"
-5:I[90224,["/_next/static/chunks/06p_0ftwmv4_e.js"],"IconMark"]
-0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Bezawada Priyavardhan - Portfolio"}],["$","meta","1",{"name":"description","content":"AI & Data Science Student | Frontend Developer - Personal portfolio showcasing skills and projects"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L5","3",{}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"iMc_kq7-v-qCiUgsPTHi7"}
+5:I[90224,["/priyavardhan-portfolio/_next/static/chunks/06p_0ftwmv4_e.js"],"IconMark"]
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Bezawada Priyavardhan - Portfolio"}],["$","meta","1",{"name":"description","content":"AI & Data Science Student | Frontend Developer - Personal portfolio showcasing skills and projects"}],["$","link","2",{"rel":"icon","href":"/priyavardhan-portfolio/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L5","3",{}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"5hiK_If_XCB_JfD_d8w_u"}
