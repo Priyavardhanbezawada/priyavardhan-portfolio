@@ -17,13 +17,13 @@ import { EMAILJS_CONFIG } from "./emailjs-config";
 
 const personalInfo = {
   name: "Bezawada Priyavardhan",
-  role: "AI & Data Science Student | Full Stack Developer | AI Enthusiast",
+  role: "AI & Data Science  | Full Stack Developer | AI Enthusiast",
   email: "priyavardhan.bezawada@gmail.com",
   phone: "+916303604865",
   github: "https://github.com/Priyavardhanbezawada",
   linkedin: "https://www.linkedin.com/in/priya-vardhan-bezawada-24eu01009",
   instagram: "https://www.instagram.com/priyavardhanbezawada/",
-  resume: "/priyaresume.pdf",
+  resume: "/priya vardhan resume.pdf",
   profileImage: "/profile.jpg", // Add your profile image to public folder
 };
 
@@ -192,7 +192,7 @@ export default function Portfolio() {
 
         <div className="bg-gray-900/50 p-8 rounded-2xl backdrop-blur-sm border border-gray-800">
           <p className="text-gray-300 text-lg leading-8 text-center">
-            I am Bezawada Priyavardhan, a B.Tech student specializing in
+            I am Bezawada PriyaVardhan, a B.Tech student specializing in
             Artificial Intelligence & Data Science. I am passionate about
             AI, Machine Learning, Full-Stack Development, and building
             innovative solutions that solve real-world problems. My interests
@@ -211,13 +211,13 @@ export default function Portfolio() {
           <div className="space-y-6">
             <div className="border-l-4 border-purple-500 pl-6">
               <h3 className="text-xl font-bold text-white mb-2">
-                B.Tech in AI & Data Science
+                B.Tech in Artificial Intelligence & Data Science
               </h3>
-              <p className="text-purple-400 font-semibold mb-2">
-                Siddhartha Engineering College
+              <p className="text-purple-800 font-semibold mb-5">
+                Siddhartha Academy of Higher Education
               </p>
               <p className="text-gray-400">
-                Currently pursuing B.Tech in Artificial Intelligence & Data Science
+                I am currently pursuing a Bachelor of Technology in Artificial Intelligence and Data Science. I am currently in my third  year and have maintained a CGPA of 8.1.
               </p>
             </div>
           </div>
@@ -234,10 +234,19 @@ export default function Portfolio() {
           <div className="space-y-6">
             <div className="border-l-4 border-cyan-500 pl-6">
               <h3 className="text-xl font-bold text-white mb-2">
-                Frontend Developer
+                AI Developer
               </h3>
               <p className="text-gray-300 text-lg leading-8">
-                Built reusable UI components to improve development efficiency and design consistency.
+                Although I am currently a third-year B.Tech student and do not have full-time industry experience yet, I have gained significant practical experience through academic projects, certifications, and self-learning.
+
+I have worked on several projects that helped me develop skills in Artificial Intelligence, Data Science, Machine Learning, Full-Stack Development, and problem-solving. I developed Syllabus Genius, an AI-powered application that converts syllabus PDFs into personalized study plans and learning resources. I also built a WhatsApp Reminder Bot that automates reminders through WhatsApp and worked on a Smart Car Parking System that provides real-time parking slot monitoring.
+
+Currently, I am developing a Smart Farmer Ecosystem Platform that integrates AI-based crop disease detection with dairy farm management. Through this project, I am gaining hands-on experience in Python, machine learning, database management, web development, API integration, and system design.
+
+In addition to project development, I have completed multiple certifications in AI, Machine Learning, Python, SQL, Data Analysis, and Full-Stack Development, which have strengthened my technical foundation and practical knowledge.
+
+These experiences have improved my technical skills, analytical thinking, teamwork, problem-solving abilities, and project management skills, preparing me to contribute effectively in a professional environment.
+
               </p>
             </div>
           </div>
@@ -257,10 +266,10 @@ export default function Portfolio() {
         {/* React Ecosystem */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold text-center mb-8 text-cyan-400">
-            React Ecosystem Technologies
+            Artificial Intelligence & Data Science
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
-            {["React.js", "React Native", "Next.js", "Tailwind CSS"].map((skill) => (
+            {["Python", "C", "Java", "SQL"].map((skill) => (
               <span
                 key={skill}
                 className="px-6 py-3 bg-gray-800 rounded-full hover:bg-cyan-600 transition-colors duration-300 cursor-default"
@@ -324,6 +333,57 @@ export default function Portfolio() {
               ))}
             </div>
           </div>
+          <div className="bg-gray-900/50 p-6 rounded-2xl border border-gray-800 hover:border-purple-500 transition-colors duration-300">
+            <h4 className="text-xl font-bold mb-4 text-purple-400">Artificial Intelligence & Data Science</h4>
+            <div className="space-y-2">
+              {["Machine Learning",
+"Supervised Learning",
+"Data Analysis",
+"Data Visualization",
+"Natural Language Processing (NLP)",
+"Prompt Engineering",
+"Vertex AI",
+"Pandas",
+"NumPy",
+"Scikit-learn"].map((skill) => (
+                <div key={skill} className="text-gray-300 hover:text-purple-300 transition-colors">
+                  • {skill}
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="bg-gray-900/50 p-6 rounded-2xl border border-gray-800 hover:border-orange-500 transition-colors duration-300">
+            <h4 className="text-xl font-bold mb-4 text-orange-400">Cloud & Deployment</h4>
+            <div className="space-y-2">
+              {["Firebase Hosting", "GitHub Pages"].map((skill) => (
+                <div key={skill} className="text-gray-300 hover:text-orange-300 transition-colors">
+                  • {skill}
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="bg-gray-900/50 p-6 rounded-2xl border border-gray-800 hover:border-purple-500 transition-colors duration-300">
+            <h4 className="text-xl font-bold mb-4 text-purple-400">Development Tools</h4>
+            <div className="space-y-2">
+              {["Git", "GitHub", "VS Code", "Postman", "Figma"].map((skill) => (
+                <div key={skill} className="text-gray-300 hover:text-purple-300 transition-colors">
+                  • {skill}
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="bg-gray-900/50 p-6 rounded-2xl border border-gray-800 hover:border-purple-500 transition-colors duration-300">
+            <h4 className="text-xl font-bold mb-4 text-purple-400">Operating Systems</h4>
+            <div className="space-y-2">
+              {["Windows",
+"Linux (Basic)"
+,"Android"].map((skill) => (
+                <div key={skill} className="text-gray-300 hover:text-purple-300 transition-colors">
+                  • {skill}
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
@@ -339,19 +399,19 @@ export default function Portfolio() {
               title: "Smart Car Parking System",
               description:
                 "Designed and developed an IoT-based smart parking solution using sensors and embedded systems to monitor parking slot availability in real time. Integrated LCD displays and alert mechanisms to improve parking efficiency.",
-              icon: "�"
+              icon: ""
             },
             {
               title: "Syllabus Genius",
               description:
                 "Built an AI-powered study planner that extracts syllabus content from university PDF documents using NLP techniques and generates personalized learning roadmaps with curated educational resources and YouTube tutorials.",
-              icon: "🤖"
+              icon: ""
             },
             {
               title: "WhatsApp Reminder Bot",
               description:
                 "Developed a WhatsApp automation bot using the Baileys library to schedule reminders and notifications through chat commands while ensuring complete local execution and user privacy.",
-              icon: "�"
+              icon: ""
             }
           ].map((project) => (
             <div
@@ -373,14 +433,14 @@ export default function Portfolio() {
       {/* Contact */}
       <section id="contact" className="max-w-5xl mx-auto px-6 py-20">
         <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent">
-          Contact
+          LET'S COLLABORATE
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* Contact Info Box */}
           <div className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-md">
             <h3 className="text-2xl font-bold mb-6 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Get In Touch
+              DIRECT CONTACT
             </h3>
             <div className="flex flex-col gap-6">
               <a
